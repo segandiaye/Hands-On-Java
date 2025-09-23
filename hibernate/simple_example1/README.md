@@ -19,8 +19,8 @@ CREATE TABLE emp1000 (
 Compile and launch :
 
 ```sh
-javac -d out Employee.java
-javac -d out -cp "out/:lib/*" StoreData.java
+javac -d out src/com/javatpoint/mypackage/Employee.java
+javac -d out -cp "out/:lib/*" src/com/javatpoint/mypackage/StoreData.java
 java -cp ".:out/:lib/*" com.javatpoint.mypackage.StoreData
 ```
 
